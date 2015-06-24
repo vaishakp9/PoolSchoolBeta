@@ -1,0 +1,30 @@
+<ion-view title="Request Logged" right-buttons="rightButtons">
+    <ion-content has-header="true" has-tabs="true" padding="true">
+        <div class="list">
+ 
+ You shall receive a call within 12 minutes from a potential pooler. If not, please proceed. Upon agreeing, please choose the right option regardless of who initiated the pooling.
+
+<div class="card" >
+  <div class="item item-text-wrap" >
+    <textarea ng-model="user.potential0" /></textarea>
+    <a class="button icon-right ion-chevron-right button-calm  button-outline button-small" ng-click="wait_have_update(0);" ui-sref="app.have_done">Choose &nbsp;</a>
+  </div>
+</div>
+
+<div class="card" >
+  <div class="item item-text-wrap" >
+    <textarea ng-model="user.potential1" /></textarea>
+    <a class="button icon-right ion-chevron-right button-calm  button-outline button-small" ng-click="wait_have_update(1);" ui-sref="app.have_done">Choose &nbsp;</a>
+  </div>
+</div>
+
+<div class="card" >
+  <div class="item item-text-wrap" >
+    <textarea ng-model="user.potential2" /></textarea>
+    <a class="button icon-right ion-chevron-right button-calm  button-outline button-small" ng-click="wait_have_update(2);" ui-sref="app.have_done">Choose &nbsp;</a>
+
+  </div>
+</div>
+</ion-content><br><br>
+    
+</ion-view>
